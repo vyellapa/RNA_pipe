@@ -1,0 +1,1 @@
+bsub -oo log bpipe run -p R1=FASTQ1_COMMA_SEP_LIST -p R2=FASTQ2_COMMA_SEP_LIST -p T=1 -p NAME=SAMPLE_NAME -p SPECIES=humanORmouse RNA_BPIPE 
